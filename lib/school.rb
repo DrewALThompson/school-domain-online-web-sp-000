@@ -7,7 +7,7 @@ class School
   end
   
   def roster(school)
-    Hash.new 
+    @school = {}
   end
   
 end
