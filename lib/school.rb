@@ -4,7 +4,10 @@ class School
 
   def initialize(school)
     @school = school
-    school.roster
+  end
+  
+  def roster(school)
+    Hash.new 
   end
   
 end
