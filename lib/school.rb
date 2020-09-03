@@ -16,4 +16,7 @@ attr_accessor :school, :roster
     @roster[grade]
   end
   
+  def sort
+    
+  
 end
