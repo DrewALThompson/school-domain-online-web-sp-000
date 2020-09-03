@@ -11,5 +11,6 @@ attr_accessor :school, :roster
     @student = student
     roster[grade] = []
     roster[grade] << student 
+  end
   
 end
