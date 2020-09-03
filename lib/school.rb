@@ -12,6 +12,8 @@ attr_accessor :school, :roster
     roster[grade] << student 
   end
   
-  
+  def grade(grade)
+    @roster[grade]
+  end
   
 end
