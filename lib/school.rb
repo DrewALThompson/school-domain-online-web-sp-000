@@ -21,7 +21,7 @@ attr_accessor :school, :roster
     @roster.each do |grade, student| 
       sorted_hash[grade] = student.sort 
     end
-    sorted_hash
+    sorted_hash.flatten.compress
   end
   
 end
