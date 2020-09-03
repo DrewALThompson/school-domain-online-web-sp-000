@@ -16,15 +16,15 @@ attr_accessor :school, :roster
     @roster[grade]
   end
   
-  def sort
-    sorted_hash = []
-    @roster.each do |grade, student| 
-      sorted_hash[grade] = student.sort 
-    end
-    sorted_hash
-  end
+  # def sort
+  #   sorted_hash = []
+  #   @roster.each do |grade, student| 
+  #     sorted_hash[grade] = student.sort 
+  #   end
+  #   sorted_hash
+  # end
   
-    def sort 
+  def sort 
     roster.sort_by do |x, y| 
       x 
     end 
