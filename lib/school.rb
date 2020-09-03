@@ -9,6 +9,6 @@ attr_accessor :school, :roster
   
   def add_student(student, grade)
     @student = student
-    roster[:student] = 
+    roster[grade] = 
   
 end
