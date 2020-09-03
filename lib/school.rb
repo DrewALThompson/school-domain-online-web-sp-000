@@ -17,6 +17,7 @@ attr_accessor :school, :roster
   end
   
   def sort
-    
+    sorted_hash = []
+    @roster.each
   
 end
