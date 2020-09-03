@@ -18,6 +18,8 @@ attr_accessor :school, :roster
   
   def sort
     sorted_hash = []
-    @roster.each {|level, student|
+    @roster.each {|grade student| sorted_hash[grade] = student.sort}
+    sorted_hash
+  end
   
 end
